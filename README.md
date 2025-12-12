@@ -19,7 +19,7 @@ Sentry.OpenTelemetry
 
 Sentry configuration DSN should be provided via appsettings.json or environment variables.
 
-#Features
+# Features
 
 user can import a list of points
 user can add a point to an existing list
