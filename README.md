@@ -19,6 +19,16 @@ Sentry.OpenTelemetry
 
 Sentry configuration DSN should be provided via appsettings.json or environment variables.
 
+#Features
+
+user can import a list of points
+user can add a point to an existing list
+user can delete a point from an existing list
+user can retrieve the squares identified
+Automated tests
+Containerization
+Measuring SLI (Sentry)
+
 # How to run:
 1. Debug on Visual studio to access swagger documentation (IMPORTANT sentry dsn key is needed to setup through user secrets or appsettings.json. Can be found in compose.yaml).
 2. Run on docker locally: docker compose up --build 
