@@ -31,4 +31,4 @@ Measuring SLI (Sentry)
 
 # How to run:
 1. Debug on Visual studio to access swagger documentation (IMPORTANT sentry dsn key is needed to setup through user secrets or appsettings.json. Can be found in compose.yaml).
-2. Run on docker locally: docker compose up --build 
+2. Run on docker locally: docker compose up --build. It will be availalble on http://localhost:8080/swagger/index.html
