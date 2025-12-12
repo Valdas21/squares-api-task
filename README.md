@@ -18,3 +18,7 @@ Sentry.AspNetCore
 Sentry.OpenTelemetry
 
 Sentry configuration DSN should be provided via appsettings.json or environment variables.
+
+# How to run:
+1. Debug on Visual studio to access swagger documentation (IMPORTANT sentry dsn key is needed to setup through user secrets or appsettings.json. Can be found in compose.yaml).
+2. Run on docker locally: docker compose up --build 
